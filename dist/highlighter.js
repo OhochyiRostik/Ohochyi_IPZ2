@@ -76,25 +76,6 @@ module.exports = function(hljs) {
 
         ]
       },
-      
-      {
-        begin: /<\?(xml|html)/,
-        end:/\?>/,
-        subLanguage: "xml",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?(xml|html)/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true 
-          }
-        ]
-      },
       {
         begin: /<\?sql/,
         end:/\?>/,
@@ -113,100 +94,6 @@ module.exports = function(hljs) {
           }
         ]
       },
-      {
-        begin: /<\?json/,
-        end:/\?>/,
-        subLanguage: "json",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?json/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true 
-          }
-        ]
-      },
-
-      {
-        begin: /<\?cypher/,
-        end:/\?>/,
-        subLanguage: "cypher",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?cypher/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true 
-          }
-        ]
-      },
-
-      {
-        begin: /<\?csv/,
-        end:/\?>/,
-        subLanguage: "csv",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?csv/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true 
-          }
-        ]
-      },
-
-      {
-        begin: /<\?text/,
-        end:/\?>/,
-        subLanguage: "text",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?text/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true 
-          }
-        ]
-      },
-
-      {
-        begin: /<\?(javascript)*( |\n)/,
-        end:/\?>/,
-        subLanguage: "javascript",
-        returnBegin: true,
-        endsWithParent:true,
-        contains:[
-          {
-            className:"built_in",
-            begin: /<\?(javascript)*( |\n)/ 
-          },
-          {
-            className:"built_in",
-            begin: /\?>/,
-            endsParent:true
-          },
-        ]
-      }
     ]
   };
 };
