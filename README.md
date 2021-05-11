@@ -1,6 +1,8 @@
 # Ohochyi_IPZ2
 ##Для початку роботи необхідно завантажити бібліотеку Highlight.js.
+
 https://highlightjs.org/
+
 Приклад роботи хайлайтера:
 
 ![alt text](Image1.png)
