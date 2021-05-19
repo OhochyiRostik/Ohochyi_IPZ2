@@ -2,6 +2,7 @@
 ## Для початку роботи необхідно завантажити бібліотеку Highlight.js.
 Посилання на бібліотеку:
 https://highlightjs.org/
+
 ![version](https://badgen.net/badge/version/0.0.1/black)
 ## Використання
 
