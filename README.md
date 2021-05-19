@@ -8,7 +8,7 @@ https://highlightjs.org/
 
 ## Використання
 
-Перед початком роботи неохзідно додати бібліотеку Highlight.js до вашої веб-сторінки і завантажити модуль з каталогу `dist`після завантаження Highlight.js.
+Перед початком роботи необхідно додати бібліотеку Highlight.js до вашої веб-сторінки і завантажити модуль з каталогу `dist`після завантаження Highlight.js.
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
