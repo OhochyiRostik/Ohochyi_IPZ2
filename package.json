@@ -1,8 +1,8 @@
 {
   "name": "dps.js",
   "version": "0.0.1",
-  "description": "highlight.js syntax definition for plantuml format",
-  "main": "src/plantuml.js",
+  "description": "highlight.js syntax definition for dps format",
+  "main": "src/dps.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +11,11 @@
     "url": "https://github.com/ZlatanMLG/highlightjs-plantuml.git"
   },
   "keywords": [
-    "plantuml",
+    "dps",
     "highlight.js",
     "highlightjs",
-    "syntax"
   ],
-  "author": "Valentyn Zhelepa <neokek1@gmail.com>",
+  "author": "Ohochyi Rostyslav <ohochyi2002@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/ZlatanMLG/highlightjs-plantuml"
 }
